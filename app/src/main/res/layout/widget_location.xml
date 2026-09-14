@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp" android:background="#EEFFFFFF">
+<TextView android:id="@+id/widgetTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OPPO Location" android:textStyle="bold"/>
+<TextView android:id="@+id/widgetPlace" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="Location"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"><Button android:id="@+id/widgetStart" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Start"/><Button android:id="@+id/widgetStop" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Stop"/></LinearLayout>
+</LinearLayout>
